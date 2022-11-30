@@ -16,7 +16,7 @@ En segundo lugar, realicé una búsqueda inicial en google sobre este topico y m
 especificamente en la región indicada. En otras palabras, busqué caracterizar el
 mercado inmobiliario de Seattle.
 
-![Redfin New](hhttps://github.com/bdarocag/myrappitest/blob/main/Images/redfin_lookup.png)
+![Redfin New](https://github.com/bdarocag/myrappitest/blob/main/Images/redfin_lookup.png)
 
 Los resultados de esta búsqueda arrojaron que *La mayoría de casas reciben múl-
 tiples ofertas de compra, lo que directamente implica un mercado bastante deman-
