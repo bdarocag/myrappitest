@@ -10,13 +10,13 @@ visualizar la ubicación de los puntos en el plano espacial. Cabe resaltar que
 esto tambien lo pude haber realizado sobre google maps directamente, o incluso
 realizar el grafico desde R o Python. 
 
-![Alt text](https://github.com/C:/Users/Braya/Documents/GitHub/myrappitest/Images/qgis_first_exploration.png)
+![Coordinates QGIS](https://github.com/bdarocag/myrappitest/blob/main/Images/qgis_first_exploration.png)
 
 En segundo lugar, realicé una búsqueda inicial en google sobre este topico y más
 especificamente en la región indicada. En otras palabras, busqué caracterizar el
 mercado inmobiliario de Seattle.
 
-![Alt text](https://github.com/C:/Users/Braya/Documents/GitHub/myrappitest/Images/redfin_lookup.png)
+![Redfin New](hhttps://github.com/bdarocag/myrappitest/blob/main/Images/redfin_lookup.png)
 
 Los resultados de esta búsqueda arrojaron que *La mayoría de casas reciben múl-
 tiples ofertas de compra, lo que directamente implica un mercado bastante deman-
