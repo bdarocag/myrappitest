@@ -15,11 +15,10 @@
 import os # Directorios y archivos
 import pandas as pd # Data Frames
 import numpy as np # Arrays
-import matplotlib as plt # Plots
-import seaborn as sns # Graphs
 import osmnx as ox # Open Street Maps module
 import geopandas as gpd
 from geopy.distance import geodesic # Calculate distances
+import pickle #Save and Load objects
 
 #%% Lectura de datos iniciales
 house_sales = pd.read_csv('C:/Users/Braya/OneDrive/Documentos/GitHub/myrappites'\
@@ -98,3 +97,10 @@ pd.to_pickle(house_sales, 'C:/Users/Braya/OneDrive/Documentos/GitHub/myrappit'\
 # Al final, se obtiene una columna nueva con la distancia a la infrestructura
 # más cercana, por cada tipo de infraestructura.
 # Estas nuevas variables las estudiare en el siguiente paso.
+#
+#
+
+with open(r"C:/Users/Braya/OneDrive/Documentos/GitHub/myrappitest/Data/house_sales_ext.pickle", "rb") as input_file:
+    house_sales = pickle.load(input_file)
+
+# %%
