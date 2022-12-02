@@ -33,9 +33,10 @@ import pickle #Save and Load objects
 #%% Cargar datos
 with open(r"C:/Users/Braya/OneDrive/Documentos/GitHub/myrappitest/Data/house_sales_ext.pickle", "rb") as input_file:
     house_sales = pickle.load(input_file) 
+
 #%% Inicialización del modelado
 
-reg1 = setup(data = house_sales, #Conjunto de datos
+reg = setup(data = house_sales, #Conjunto de datos
 target = 'price', # Variable dependiente ('Target')
 session_id=1969, # Semilla
 categorical_features=['is_waterfront', 'condition','zip'], #Especificar variables categoricas
@@ -58,9 +59,11 @@ feature_selection_threshold=0.6, #umbral para mantener cierta cantidad de variab
 remove_multicollinearity=True, # Remover multicolinealidad
 multicollinearity_threshold=0.7, # Umbral para remover la multicolinealidad
 ignore_low_variance=True, # Descartar variables con mala distribucion y baja varianza
-experiment_name='regresion1', # Nombre para identificar intento
+experiment_name='regresion', # Nombre para identificar intento
 fold_strategy='stratifiedkfold', # Metodo de validacion cruzada
 fold=10, # Cantidad de divisiones en la data
-use_gpu=True, # utilizar GPU cuando sea posible
-) # Nombrar primera configuración
+use_gpu=True) # utilizar GPU cuando sea posible
 # %%
+#
+# De esta forma quedan configurados todos los parametros para la ejecución
+# de los modelos en el siguiente paso '5. Predictive modeling...'
