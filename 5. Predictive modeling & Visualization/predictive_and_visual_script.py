@@ -164,7 +164,8 @@ unseen_predictions.head()
 #
 # NOTA IMPORTANTE
 # El modelo supera el tamaño limite de git hub, por lo que fue comprimido
-# externamente usando el programa 7-zip, para redusir su peso
-# en el momento de cargar el modelo debe descomprimirse primero.
-save_model(et,'C:/Users/Braya/OneDrive/Documentos/GitHub/myrappitest/5. Predictive modeling & Visualization/Final et Model 1Dec2022')
+# externamente usando el programa 7-zip, para reducir su peso.
+# En el momento de cargar el modelo  (Siguiente paso) debe descomprimirse primero.
+
+save_model(et,'C:/Users/Braya/Downloads/Final et Model 1Dec2022') #guardado localmente
 # %%
