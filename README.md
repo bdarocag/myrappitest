@@ -16,9 +16,9 @@ Este ejercicio corresponde al desarrollo y aplicación de un modelo de Machine L
 
 * [Descripción](#Descripción)
 * [Instrucciones](#Instrucciones)
-  + [Nota](#Nota)
+  + [Nota](##Nota)
 * [0. Entendimiento del problema](#0-Entendimiento-del-problema)
-  + [Noticias locales](#Noticias-locales)
+  + [Noticias locales](##Noticias-locales)
 * [1. Data mining](#1-Data-mining)
 * [2. Data cleaning](#2-Data-cleaning)
 * [3. Data exploration](#3-Data-exploration)
@@ -34,7 +34,7 @@ Este ejercicio corresponde al desarrollo y aplicación de un modelo de Machine L
 
 La forma de abordar este ejercicio es siguiendo el clásico ciclo de vida en ciencia de datos, para mayor comodidad, las carpetas han sido numeradas en orden (paso a paso). Asi mismo, cada paso cuenta con un script en donde este se ha desarrollado. Los scripts cuentan con separadores de linea `#%%` en su mayoria titulados para indicar la accion correspondiente. Es importante leer adecuadamente los comentarios dentro de los scripts pues contienen las distintas apreciaciones y explicaciones que consideré necesarias.
 
-# Nota
+## Nota
 Es importante tener en cuenta que en los pasos **1. Data mining**, **5. Predictive modeling** y **6. Load and use model**, hay instrucciones especiales en cada uno de los scripts correspondientes. Por esto motivo se recuerda leer con especial atención dichas indicaciones.
 
 
@@ -42,7 +42,7 @@ Es importante tener en cuenta que en los pasos **1. Data mining**, **5. Predicti
 
 En este espacio, se encontrara un achivo *.md* con una pequeña profundización realizada sobre el problema de este ejecrcicio. Allí se indica como se abordo la problematica y como se pretendio entender.
 
-# Noticias locales
+## Noticias locales
 Dentro de la carpeta se indica un reporte sobre los precios de inmuebles en Seattle, donde se indican tendencias y expectativas del mercado inmobiliario para esta ciudad.
 
 
