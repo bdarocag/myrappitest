@@ -16,7 +16,7 @@ Este ejercicio corresponde al desarrollo y aplicación de un modelo de Machine L
 
 * [Descripción](#Descripción)
 * [Instrucciones](#Instrucciones)
-  + [Nota](##Nota)
+  + [Nota](#nota)
 * [0. Entendimiento del problema](#0-Entendimiento-del-problema)
   + [Noticias locales](##Noticias-locales)
 * [1. Data mining](#1-Data-mining)
