@@ -34,6 +34,12 @@ Este ejercicio corresponde al desarrollo y aplicación de un modelo de Machine L
 
 La forma de abordar este ejercicio es siguiendo el clásico ciclo de vida en ciencia de datos, para mayor comodidad, las carpetas han sido numeradas en orden (paso a paso). Asi mismo, cada paso cuenta con un script en donde este se ha desarrollado. Los scripts cuentan con separadores de linea `#%%` en su mayoria titulados para indicar la accion correspondiente. Es importante leer adecuadamente los comentarios dentro de los scripts pues contienen las distintas apreciaciones y explicaciones que consideré necesarias.
 
+<div>
+  <p align="center">
+    <img src="Images/ds_life_cycle.png" width="800"> 
+  </p>
+</div>
+
 ## Nota
 Es importante tener en cuenta que en los pasos **1. Data mining**, **5. Predictive modeling** y **6. Load and use model**, hay instrucciones especiales en cada uno de los scripts correspondientes. Por esto motivo se recuerda leer con especial atención dichas indicaciones.
 
