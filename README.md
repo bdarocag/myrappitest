@@ -36,7 +36,7 @@ La forma de abordar este ejercicio es siguiendo el clásico ciclo de vida en cie
 
 <div>
   <p align="center">
-    <img src="Images/ds_life_cycle.png" width="800"> 
+    <img src="Images/ds_life_cycle.png" width="400"> 
   </p>
 </div>
 
