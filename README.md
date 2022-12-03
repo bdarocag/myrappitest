@@ -22,10 +22,10 @@ Este ejercicio corresponde al desarrollo y aplicación de un modelo de Machine L
 * [1. Data mining](#1-Data-mining)
 * [2. Data cleaning](#2-Data-cleaning)
 * [3. Data exploration](#3-Data-exploration)
-  + [EDA Report](#EDA-Report)
+  + [EDA Report](#eda-report)
 * [4. Feature engineering](#4-Feature-engineering)
 * [5. Predictive modeling](#5-Predictive-modeling)
-  + [Saved model](#Saved-model)
+  + [Saved model](#saved-model)
 * [6. Load and use model](#6-Load-and-use-model)
 * [Conclusiones](#Conclusiones)
 
@@ -57,6 +57,9 @@ Como dato extra, algunas estrategias de manejo de datos son aplicadas en la secc
 
 # 3. Data exploration
 Clásico proceso de exploración de datos, en donde se consultan las medidas de tendencia central de las variables, se verifica su distribución, se hacen comparaciones sencillas, se indaga sobre niveles de correlación y con ello se plantean hipotesis de trabajo.
+
+## EDA Report
+La exploración detallada se generó de forma automatica usando el módulo `pandas-profiling` el cuál realiza una exploración muy completa y auto-genera un reporte en HTML, el cual se puede consultar en esta sección, descargandolo y abriendolo con cualquier navegador.
 
 # 4. Feature engineering
 Acá se aplica todo el poder del framework [PyCaret](https://github.com/pycaret/pycaret) para ejecutar tareas simples y complejas de ingeniería de datos. Aquí se aplica normalización, omisión de variables segun indicadores de multicolinealdiad, transformaciones polinomiales y trigonometricas, agrupacion de variables entre otras. Como este framework permite una aplicación de estas técnicas de manera sencilla, solo se instruye la configuración utilizada.
