@@ -17,7 +17,7 @@ Este ejercicio corresponde al desarrollo y aplicación de un modelo de Machine L
 * [Descripción](#Descripción)
 * [Instrucciones](#Instrucciones)
   + [Nota](#Nota)
-* [0. Entendimiento del problema](#0. Entendimiento del problema)
+* [0. Entendimiento del problema](#0.Entendimientodelproblema)
   + [Noticias locales](#Noticias locales)
 * [1. Data mining](#1. Data mining)
 * [2. Data cleaning](#2. Data cleaning)
@@ -38,7 +38,7 @@ La forma de abordar este ejercicio es siguiendo el clásico ciclo de vida en cie
 Es importante tener en cuenta que en los pasos **1. Data mining**, **5. Predictive modeling** y **6. Load and use model**, hay instrucciones especiales en cada uno de los scripts correspondientes. Por esto motivo se recuerda leer con especial atención dichas indicaciones.
 
 
-# 0. Entendimiento del problema
+# 0.Entendimientodelproblema
 
 En este espacio, se encontrara un achivo *.md* con una pequeña profundización realizada sobre el problema de este ejecrcicio. Allí se indica como se abordo la problematica y como se pretendio entender.
 
